@@ -1,7 +1,7 @@
 from traders.interface import TraderInterface, TraderSchema
 from marshmallow import Schema, fields, validate, EXCLUDE
 
-from my-stock-traders.traders.test1.subfolder.helper import MyTraderSchema2
+from traders.test1.subfolder.helper import MyTraderSchema2
 
 
 class MyTraderBuyer2(TraderInterface):
